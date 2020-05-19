@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalla_Menu">
+
+    <ImageView
+        android:id="@+id/foto_perfil"
+        android:layout_width="172dp"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/depositphotos_202264598_stock_photo_smiling_handsome_driver_holding_steering"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/nombre_driver"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Felipe Damian Charcas Reyna"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/auto_driver"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Mitsibushi Lancer Evolution 2015"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/tipo_auto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sedan"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/boton_seleccionarviajes"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="#1A6CF1"
+        android:text="Seleccionar Viaje"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/boton_maps"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="#1A6CF1"
+        android:textColor="@android:color/background_light"
+        android:text="Gasolineras y Mecanicos"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/boton_historialviajes"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:background="#1A6CF1"
+        android:text="Historial de Viajes"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/boton_cerrarsesion"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:background="#1A6CF1"
+        android:text="Cerrar Sesion"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <TextView
+        android:id="@+id/diamantes"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="DIAMANTES:"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <ImageView
+        android:id="@+id/logo_viaje"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/volante"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageView
+        android:id="@+id/maps_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/mpslogo"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/logo_historial"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/listado"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <ImageView
+        android:id="@+id/logo_sesion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/cerrar"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <TextView
+        android:id="@+id/numero_diamantes"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text=" x 3.5"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <ImageView
+        android:id="@+id/logo_diamante"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/diamante"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
